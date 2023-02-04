@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-image: linear-gradient(lightblue, rgb(125, 125, 206));
+  height: 100vh;
+  padding-top: 9rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding: 3rem;
+  color: rgb(113, 69, 17);
+}
+#converter {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: space-around;
+}
+input {
+  height: 2rem;
+  width: 6rem;
+  font-size: 20px;
+}
+.title {
+  font-size: 25px;
+  color: rgb(113, 69, 17);
+}
